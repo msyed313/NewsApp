@@ -32,7 +32,7 @@ const Login = ({navigation}) => {
     };
   
     try {
-      const response = await fetch('http://10.0.2.2:3300/login', {
+      const response = await fetch('http://192.168.2.2:3300/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
